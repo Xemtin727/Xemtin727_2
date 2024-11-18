@@ -1,0 +1,1179 @@
+.header {
+    width: 1200px;
+    height: 22px;
+    margin-top: 60px;
+    margin-left: 120px;
+    color: white;
+}
+
+.workout-nav {
+    display: flex;
+    gap: 100px;
+}
+
+.wrkt {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;    
+}
+
+.nav-links {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    text-align: left;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    margin-left: 614px;
+    gap: 50px;
+    opacity: 67%;
+}
+
+.recs {
+    margin-top: 131px;
+    margin-left: 120px;
+    border-radius: 200px;
+    background: rgb(25, 25, 25);
+    color: white;
+    width: 329px; 
+    height: 36px; 
+    position: absolute;
+}
+
+.imgw1 {
+    width: 780px; 
+    height: 1170px; 
+    position: absolute; 
+    margin-left: 629px;
+}
+
+
+.body {
+    background-color: black;
+}
+
+.green1 {
+    width: 46px;
+    height: 26px; 
+    left: 5px; 
+    top: 5px; 
+    position: absolute; 
+    background: #25AB75; 
+    border-radius: 200px
+}
+
+.new1 {
+    left: 15px; 
+    top: 9px; 
+    position: absolute; 
+    color: white; 
+    font-size: 10px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 18px; 
+    letter-spacing: 1.50px; 
+    word-wrap: break-word
+}
+
+.high1 {
+    left: 66px; 
+    top: 9px; 
+    position: absolute; 
+    opacity: 0.80; 
+    color: white; 
+    font-size: 12px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 18px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word
+}
+
+.cardioandtimecalodiv {
+    width: 871px; 
+    height: 384px; 
+    margin-top: 184px; 
+    margin-left: 66px; 
+    position: relative
+}
+
+.cardiotext {
+    left: 41px; 
+    top: 14px; 
+    position: absolute; 
+    color: white; 
+    font-size: 200px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 170px; 
+    word-wrap: break-word
+}
+
+.timeandcalo {
+    width: 166px; 
+    height: 223px; 
+    position: relative; 
+    margin-left: 1188px;
+}
+
+.timediv {
+    width: 166px; 
+    height: 98px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    opacity: 0.10; 
+    background: white; 
+    border-radius: 20px
+}
+
+.calodiv {
+    width: 166px; 
+    height: 105px; 
+    left: 0px; 
+    top: 118px; 
+    position: absolute; 
+    opacity: 0.10; 
+    background: white; 
+    border-radius: 20px
+}
+
+.thirtyeight {
+    left: 30px; 
+    top: 20px; 
+    position: absolute; 
+    color: #FFE642; 
+    font-size: 40px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 40px; 
+    letter-spacing: 1px; 
+    word-wrap: break-word
+}
+
+.timeword {
+    left: 30px; 
+    top: 65px; 
+    position: absolute; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 13px; 
+    letter-spacing: 1px; 
+    word-wrap: break-word
+}
+
+.onesixfive {
+    left: 30px; 
+    top: 138px; 
+    position: absolute; 
+    color: #FB1351; 
+    font-size: 40px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 40px; 
+    letter-spacing: 1px; 
+    word-wrap: break-word
+}
+
+.estcalo {
+    left: 30px; 
+    top: 183px; 
+    position: absolute; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 20px; 
+    letter-spacing: 1px; 
+    word-wrap: break-word
+}
+
+.lorem {
+    width: 600px; 
+    opacity: 0.50; 
+    color: white; 
+    font-size: 16px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 29px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word; 
+    margin-left: 120px;
+}
+
+.button1 {
+    width: 200px; 
+    height: 70px; 
+    position: relative;  
+    margin-top: 25px;
+}
+
+.button1bg {
+    width: 200px; 
+    height: 70px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #25AB75; 
+    border-radius: 10px; 
+    color: white; 
+    font-size: 18px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 22px; 
+    letter-spacing: 1px; 
+    word-wrap: break-word;
+}
+
+.button1words {
+    left: 43px; 
+    top: 24px; 
+    position: absolute; 
+    color: white; 
+    font-size: 18px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 22px; 
+    letter-spacing: 1px; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.button2 {
+    width: 200px; 
+    height: 70px; 
+    position: relative; 
+    margin-left: 230px;
+}
+
+.button2bg {
+    width: 200px; 
+    height: 70px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    opacity: 0.10; 
+    background: white; 
+    border-radius: 10px
+}
+
+.button2words {
+    left: 61px; 
+    top: 24px; 
+    position: absolute; 
+    color: white; 
+    font-size: 18px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 22px; 
+    letter-spacing: 1px; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.popularex {
+    margin-top: 230px; 
+    margin-left: 120px; 
+    color: white; 
+    font-size: 35px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 45px; 
+    letter-spacing: 0.30px; 
+    word-wrap: break-word;
+    position: relative;
+}
+
+.seemoreex {
+    opacity: 0.67; 
+    color: white; 
+    font-size: 12px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 12px; 
+    letter-spacing: 1.50px; 
+    word-wrap: break-word; 
+    margin-left: 1175px;
+}
+
+.trmildiv {
+    width: 373px; 
+    height: 250px; 
+    position: relative; 
+    margin-left: 120px; 
+    margin-top: 50px;
+}
+
+.trmilword {
+    color: white; 
+    font-size: 50px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 45px; 
+    letter-spacing: 0.30px; 
+    word-wrap: break-word; 
+    margin-top: -20px; 
+    margin-left: 20px;
+}
+
+.trmiltimediv {
+    width: 72px; 
+    height: 29px; 
+    position: relative; 
+    margin-left: 300px; 
+    margin-top: -50px;
+}
+
+.trmiltimeborder {
+    width: 72px; 
+    height: 29px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: black; 
+    border-top-left-radius: 15px; 
+    margin-left: 1px;
+}
+
+.trmiltime {
+    left: 10px; 
+    top: 10px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 19px; 
+    letter-spacing: 1.37px; 
+    word-wrap: break-word
+}
+
+.estcalotr {
+    opacity: 0.67; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 14px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word; 
+    margin-top: 30px; 
+    margin-left: 20px;
+}
+
+.stretchdiv  {
+    width: 373px; 
+    height: 250px; 
+    position: relative; 
+    margin-left: 413px; 
+    margin-top: -302.5px;
+}
+
+.stretchword {
+    color: white; 
+    font-size: 50px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 45px; 
+    letter-spacing: 0.30px; 
+    word-wrap: break-word; 
+    margin-top: -20px; 
+    margin-left: 20px;
+}
+
+.stretchtimediv {
+    width: 72px; 
+    height: 29px; 
+    position: relative; 
+    margin-left: 300px; 
+    margin-top: -50px;
+}
+
+.stretchtimeborder {
+    width: 72px; 
+    height: 29px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: black; 
+    border-top-left-radius: 15px; 
+    margin-left: 1px;
+}
+
+.stretchtime {
+    left: 10px; 
+    top: 10px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 19px; 
+    letter-spacing: 1.37px; 
+    word-wrap: break-word
+}
+
+.estcalostr {
+    opacity: 0.67; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 14px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word; 
+    margin-top: 30px; 
+    margin-left: 20px;
+}
+
+.yogadiv {
+    width: 373px; 
+    height: 250px; 
+    position: relative; 
+    margin-left: 413px; 
+    margin-top: -302.5px;
+}
+
+.yogaword {
+    color: white; 
+    font-size: 50px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 45px; 
+    letter-spacing: 0.30px; 
+    word-wrap: break-word; 
+    margin-top: -20px; 
+    margin-left: 20px;
+}
+
+.yogatimediv {
+    width: 72px; 
+    height: 29px; 
+    position: relative; 
+    margin-left: 300px; 
+    margin-top: -50px;
+}
+
+.yogatimeborder {
+    width: 72px; 
+    height: 29px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: black; 
+    border-top-left-radius: 15px; 
+    margin-left: 1px;
+}
+
+.yogatime {
+    left: 10px; 
+    top: 10px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 19px; 
+    letter-spacing: 1.37px; 
+    word-wrap: break-word
+}
+
+.estcaloyoga {
+    opacity: 0.67; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 14px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word; 
+    margin-top: 30px; 
+    margin-left: 20px;
+}
+
+.rundiv {
+    width: 373px; 
+    height: 250px; 
+    position: relative; 
+    margin-left: -825px; 
+    margin-top: 80px;
+}
+
+.runword {
+    color: white; 
+    font-size: 50px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 45px; 
+    letter-spacing: 0.30px; 
+    word-wrap: break-word; 
+    margin-top: -20px; 
+    margin-left: 20px;
+}
+
+.runtimediv {
+    width: 72px; 
+    height: 29px; 
+    position: relative; 
+    margin-left: 300px; 
+    margin-top: -50px;
+}
+
+.runtimeborder {
+    width: 72px; 
+    height: 29px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: black; 
+    border-top-left-radius: 15px; 
+    margin-left: 1px;
+}
+
+.runtime {
+    left: 10px; 
+    top: 10px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 19px; 
+    letter-spacing: 1.37px; 
+    word-wrap: break-word
+}
+
+.estcalorun {
+    opacity: 0.67; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 14px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word; 
+    margin-top: 30px; 
+    margin-left: 20px;
+}
+
+.liftingdiv {
+    width: 373px; 
+    height: 250px; 
+    position: relative; 
+    margin-left: 413px; 
+    margin-top: -302.5px;
+}
+
+.liftingword {
+    color: white; 
+    font-size: 50px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 45px; 
+    letter-spacing: 0.30px; 
+    word-wrap: break-word; 
+    margin-top: -20px; 
+    margin-left: 20px;
+}
+
+.liftingtimediv {
+    width: 72px; 
+    height: 29px; 
+    position: relative; 
+    margin-left: 300px; 
+    margin-top: -50px;
+}
+
+.liftingtimeborder {
+    width: 72px; 
+    height: 29px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: black; 
+    border-top-left-radius: 15px; 
+    margin-left: 1px;
+}
+
+.liftingtime {
+    left: 10px; 
+    top: 10px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 19px; 
+    letter-spacing: 1.37px; 
+    word-wrap: break-word
+}
+
+.estcalolifting {
+    opacity: 0.67; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 14px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word; 
+    margin-top: 30px; 
+    margin-left: 20px;
+}
+
+.pushupdiv {
+    width: 373px; 
+    height: 250px; 
+    position: relative; 
+    margin-left: 413px; 
+    margin-top: -302.5px;
+}
+
+.pushupword {
+    color: white; 
+    font-size: 50px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 45px; 
+    letter-spacing: 0.30px; 
+    word-wrap: break-word; 
+    margin-top: -20px; 
+    margin-left: 20px;
+}
+
+.pushuptimediv {
+    width: 72px; 
+    height: 29px; 
+    position: relative; 
+    margin-left: 300px; 
+    margin-top: -50px;
+}
+
+.pushuptimeborder {
+    width: 72px; 
+    height: 29px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: black; 
+    border-top-left-radius: 15px; 
+    margin-left: 1px;
+}
+
+.pushuptime {
+    left: 10px; 
+    top: 10px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 19px; 
+    letter-spacing: 1.37px; 
+    word-wrap: break-word
+}
+
+.estcalopushup {
+    opacity: 0.67; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 14px; 
+    letter-spacing: 0.50px;
+    word-wrap: break-word; 
+    margin-top: 30px; 
+    margin-left: 20px;
+}
+
+.WPMFY {
+    color: white; 
+    font-size: 120px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 120px; 
+    word-wrap: break-word; 
+    margin-left: -825px; 
+    margin-top: 200px;
+}
+
+.WPMFYrightdiv {
+    width: 999px; 
+    height: 733px; 
+    opacity: 0; 
+    background: white; 
+    margin-left: -495px; 
+    margin-top: -575px;
+}
+
+.WPMFYlorem {
+    width: 558px; 
+    opacity: 0.70; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 50px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word; 
+    margin-top: -590px; 
+    margin-left: -119px;
+}
+
+.WPMFYgetstarted {
+    width: 200px; 
+    height: 70px; 
+    margin-top: 50px; 
+    margin-left: -117px; 
+    position: relative
+}
+
+.WPMFYgetstartedbox {
+    width: 200px; 
+    height: 70px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: #25AB75; 
+    border-radius: 10px;
+    color: white; 
+    font-size: 18px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 22px; 
+    letter-spacing: 1px; 
+    word-wrap: break-word
+}
+
+.WPMFYgetstartedwords {
+    left: 43px; 
+    top: 24px; 
+    position: absolute; 
+    color: white; 
+    font-size: 18px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 22px; 
+    letter-spacing: 1px; 
+    word-wrap: break-word
+}
+
+.yellow {
+    width: 503.36px; 
+    height: 114.5px; 
+    transform: rotate(-10deg); 
+    margin-left: -850px; 
+    margin-top: 50px;
+}
+
+.samanthapic {
+    width: 321px; 
+    height: 321px; 
+    margin-left: -815px; 
+    margin-top: 100px;
+}
+
+.samanthadiv {
+    width: 196px; 
+    height: 44px; 
+    position: relative; 
+    margin-left: -815px; 
+    margin-top: 20px;
+}
+
+.samanthaname {
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    line-height: 25px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word
+}
+
+.samanthatrainer {
+    left: 0px; 
+    top: 30px; 
+    position: absolute; 
+    opacity: 0.50; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 14px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word
+}
+
+.Jonathanpic {
+    width: 558px; 
+    height: 514px; 
+    margin-left: -117px; 
+    margin-top: -570px;
+}
+
+.Jonathandiv {
+    width: 158px; 
+    height: 44px; 
+    position: relative; 
+    margin-left: -115px; 
+    margin-top: 20px;
+}
+
+.jonathanname {
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    line-height: 25px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word
+}
+
+.jonathantrainer {
+    left: 0px; 
+    top: 30px; 
+    position: absolute; 
+    opacity: 0.50; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 14px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word
+}
+
+.karenpic {
+    width: 321px; 
+    height: 321px; 
+    margin-left: -470px; 
+    margin-top: -70px;
+}
+
+.karendiv {
+    width: 157px; 
+    height: 44px; 
+    position: relative; 
+    margin-left: -470px; 
+    margin-top: 20px;
+}
+
+.karenname {
+    left: 0px; 
+    top: 0px; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    line-height: 25px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word; 
+    width: 158px;
+}
+
+.karentrainer {
+    left: 0px; 
+    top: 30px; 
+    position: absolute; 
+    opacity: 0.50; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 14px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word;
+}
+
+.down01 {
+    opacity: 0.34; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 35px; 
+    word-wrap: break-word; 
+    margin-left: -815px; 
+    margin-top: 179px;
+}
+
+.workoutathome {
+    color: white; 
+    font-size: 50px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 70px; 
+    letter-spacing: 0.83px; 
+    word-wrap: break-word; 
+    margin-left: -470px; 
+    margin-top: -60px;
+}
+
+.videos15 {
+    opacity: 0.50; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 23px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word; 
+    margin-left: -470px; 
+    margin-top: 10px;
+}
+
+.greyline1 {
+    width: 1200px; 
+    height: 1px; 
+    opacity: 0.40; 
+    border: 0.50px; 
+    margin-top: 49.5px; 
+    margin-left: -815px; 
+    background-color: grey;
+}
+
+.down02 {
+    opacity: 0.34; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 35px; 
+    word-wrap: break-word; 
+    margin-left: -815px; 
+    margin-top: 50.5px;
+}
+
+.staystrong {
+    color: white; 
+    font-size: 50px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 70px; 
+    letter-spacing: 0.83px; 
+    word-wrap: break-word; 
+    margin-left: -470px; 
+    margin-top: -60px;
+}
+
+.videos48 {
+    opacity: 0.50; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 23px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word; 
+    margin-left: -470px; 
+    margin-top: 10px;
+}
+
+.greyline2 {
+    width: 1200px; 
+    height: 1px; 
+    opacity: 0.40; 
+    border: 0.50px; 
+    margin-top: 49.5px; 
+    margin-left: -815px; 
+    background-color: grey;
+}
+
+.down03 {
+    opacity: 0.34; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 35px; 
+    word-wrap: break-word; 
+    margin-left: -815px; 
+    margin-top: 50.5px;
+}
+
+.highint {
+    color: white; 
+    font-size: 50px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 70px; 
+    letter-spacing: 0.83px; 
+    word-wrap: break-word; 
+    margin-left: -470px; 
+    margin-top: -60px;
+}
+
+.videos25 {
+    opacity: 0.50; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 23px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word; 
+    margin-left: -470px; 
+    margin-top: 10px;
+}
+
+.greyline3 {
+    width: 1200px; 
+    height: 1px; 
+    opacity: 0.40; 
+    border: 0.50px; 
+    margin-top: 49.5px; 
+    margin-left: -815px; 
+    background-color: grey;
+}
+
+.down04 {
+    opacity: 0.34; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 35px; 
+    word-wrap: break-word; 
+    margin-left: -815px; 
+    margin-top: 50.5px;
+}
+
+.simplewrkt {
+    color: white; 
+    font-size: 50px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 70px; 
+    letter-spacing: 0.83px; 
+    word-wrap: break-word; 
+    margin-left: -470px; 
+    margin-top: -60px;
+}
+
+.videos35 {
+    opacity: 0.50; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 23px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word; 
+    margin-left: -470px; 
+    margin-top: 10px;
+}
+
+.greyline4 {
+    width: 1200px; 
+    height: 1px; 
+    opacity: 0.40; 
+    border: 0.50px; 
+    margin-top: 49.5px; 
+    margin-left: -815px; 
+    background-color: grey;
+}
+
+.down05 {
+    opacity: 0.34; 
+    color: white; 
+    font-size: 25px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 35px; 
+    word-wrap: break-word; 
+    margin-left: -815px; 
+    margin-top: 50.5px;
+}
+
+.burncal {
+    color: white; 
+    font-size: 50px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 70px; 
+    letter-spacing: 0.83px; 
+    word-wrap: break-word; 
+    margin-left: -470px; 
+    margin-top: -60px;
+}
+
+.videos35_2 {
+    opacity: 0.50; 
+    color: white; 
+    font-size: 14px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 23px; 
+    letter-spacing: 0.50px; 
+    word-wrap: break-word; 
+    margin-left: -470px; 
+    margin-top: 10px;
+}
+
+.greyline5 {
+    width: 1200px; 
+    height: 1px; 
+    opacity: 0.40; 
+    border: 0.50px; 
+    margin-top: 49.5px; 
+    margin-left: -815px; 
+    background-color: grey;
+}
+
+.downarrow {
+    margin-left: 360px; 
+    margin-top: -70px; 
+    position: absolute;
+}
+
+.forma {
+    width: 500px;
+    height: 220px;
+    margin-left: 120px;
+    position: absolute;
+}
+
+.NameSubmit {
+    color: white;
+    background: black;
+    border-left: 2px;
+    border-right: 2px;
+    border-top: 2px;
+    border-radius: 4px;
+    font-family: Poppins;
+    width: 255px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.NumberSubmit {
+    color: white;
+    background: black;
+    border-left: 2px;
+    border-right: 2px;
+    border-top: 2px;
+    border-radius: 4px;
+    font-family: Poppins;
+    width: 255px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.SiteEnd {
+    height: 50px;
+}
