@@ -39,12 +39,12 @@
         </div>
     </div>
     <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-    <form class="forma" action method="post" id="forma">
+    <form class="forma" id="forma">
         <p>
-            <input class="NameSubmit" placeholder="Name" type="text" id="Name" name="User_Name" required>
+            <input class="NameSubmit" placeholder="Name" type="text" id="Name" name="User_Name" pattern="[A-Za-z]{2,}" required>
         </p>
         <p>
-            <input class="NumberSubmit" placeholder="Number" type="text" id="Number" name="Phone_Number" required>
+            <input class="NumberSubmit" placeholder="Number: xxx-xxx-xxx" type="tel" id="Number" name="Phone_Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
         </p>
         <div class="button1">
             <button value="Запись" class="button1bg" type="submit">Get Started</button>
