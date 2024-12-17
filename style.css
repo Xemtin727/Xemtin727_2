@@ -32,7 +32,7 @@
     flex-direction: row;
     margin-left: 614px;
     gap: 50px;
-    opacity: 67%;
+    opacity: 0.67;
 }
 
 .recs {
@@ -56,6 +56,10 @@
 
 .body {
     background-color: black;
+}
+
+.dark-mode {
+    background-color: white;
 }
 
 .green1 {
@@ -218,9 +222,7 @@
 
 .button1bg {
     width: 200px; 
-    height: 70px; 
-    left: 0px; 
-    top: 0px; 
+    height: 70px;  
     position: absolute; 
     background: #25AB75; 
     border-radius: 10px; 
@@ -257,8 +259,6 @@
 .button2bg {
     width: 200px; 
     height: 70px; 
-    left: 0px; 
-    top: 0px; 
     position: absolute; 
     opacity: 0.10; 
     background: white; 
@@ -335,8 +335,6 @@
 .trmiltimeborder {
     width: 72px; 
     height: 29px; 
-    left: 0px; 
-    top: 0px; 
     position: absolute; 
     background: black; 
     border-top-left-radius: 15px; 
@@ -400,8 +398,6 @@
 .stretchtimeborder {
     width: 72px; 
     height: 29px; 
-    left: 0px; 
-    top: 0px; 
     position: absolute; 
     background: black; 
     border-top-left-radius: 15px; 
@@ -465,8 +461,6 @@
 .yogatimeborder {
     width: 72px; 
     height: 29px; 
-    left: 0px; 
-    top: 0px; 
     position: absolute; 
     background: black; 
     border-top-left-radius: 15px; 
@@ -530,8 +524,6 @@
 .runtimeborder {
     width: 72px; 
     height: 29px; 
-    left: 0px; 
-    top: 0px; 
     position: absolute; 
     background: black; 
     border-top-left-radius: 15px; 
@@ -595,8 +587,6 @@
 .liftingtimeborder {
     width: 72px; 
     height: 29px; 
-    left: 0px; 
-    top: 0px; 
     position: absolute; 
     background: black; 
     border-top-left-radius: 15px; 
@@ -660,8 +650,6 @@
 .pushuptimeborder {
     width: 72px; 
     height: 29px; 
-    left: 0px; 
-    top: 0px; 
     position: absolute; 
     background: black; 
     border-top-left-radius: 15px; 
@@ -739,8 +727,6 @@
 .WPMFYgetstartedbox {
     width: 200px; 
     height: 70px; 
-    left: 0px; 
-    top: 0px; 
     position: absolute; 
     background: #25AB75; 
     border-radius: 10px;
@@ -1176,4 +1162,10 @@
 
 .SiteEnd {
     height: 50px;
+}
+
+.errmsg {
+    color: red; 
+    display: none; 
+    margin-top: 10px;
 }
