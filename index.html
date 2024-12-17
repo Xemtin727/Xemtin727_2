@@ -39,15 +39,18 @@
         </div>
     </div>
     <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-    <form class="forma" id="forma">
+    <form class="forma" action="post" id="forma" novalidate>
         <p>
-            <input class="NameSubmit" placeholder="Name" type="text" id="Name" name="User_Name" pattern="[A-Za-z]{2,}" required>
+            <input class="NameSubmit" placeholder="Name (2 and more letters)" type="text" id="Name" name="User_Name" pattern="[A-Za-z]{2,}">
         </p>
         <p>
-            <input class="NumberSubmit" placeholder="Number: xxx-xxx-xxx" type="tel" id="Number" name="Phone_Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+            <input class="NumberSubmit" placeholder="Number: xxx-xxx-xxx" type="text" id="Number" name="Phone_Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
         </p>
         <div class="button1">
             <button value="Запись" class="button1bg" type="submit">Get Started</button>
+        </div>
+        <div id="errorMessage" class="errmsg">
+            Please fill out the fields and according to the pattern!
         </div>
     </form>
     <div class="popularex">Popular Exercises</div>
@@ -104,7 +107,7 @@
     <div class="WPMFYrightdiv"></div>
     <div class="WPMFYlorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipiscing.</div>
     <div class="WPMFYgetstarted">
-        <button class="WPMFYgetstartedbox" form="forma">Get Started</button>
+        <button class="WPMFYgetstartedbox" form="forma" id="button2">Get Started</button>
     </div>
     <div class="yellow">
         <img src="img/Yellow.png" alt="">
@@ -155,5 +158,7 @@
     <div class="videos35_2">35 videos</div>
     <img src="img/Arrow.png" alt="" class="downarrow">
     <div class="SiteEnd"></div>
+<audio id="errorSound" src="sound/error-sound.mp3" preload="auto"></audio>
+<script src="script.js"></script>
 </body>
 </html>
