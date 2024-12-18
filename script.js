@@ -6,33 +6,31 @@ document.getElementById('forma').addEventListener('submit', function(event) {
 
     errorSound.volume = 0.1;
 
-    // Проверяем, заполнено ли поле
+    
     if (Name.value.trim() === '' || Name.validity.valid === false) {
-        event.preventDefault(); // Останавливаем отправку формы
+        event.preventDefault(); 
         errorSound.currentTime = 0;
-        errorSound.play(); // Проигрываем звук ошибки
-        Name.style.border = '2px solid red'; // Подсвечиваем поле
+        errorSound.play(); 
+        Name.style.border = '2px solid red'; 
         errorMessage.style.display = 'block';
     } 
     else {
-        Name.style.border = ''; // Убираем подсветку, если поле заполнено
+        Name.style.border = ''; 
     }
     if (Number.value.trim() === '' || Number.validity.valid === false) {
-        event.preventDefault(); // Останавливаем отправку формы
+        event.preventDefault(); 
         errorSound.currentTime = 0;
-        errorSound.play(); // Проигрываем звук ошибки
-        Number.style.border = '2px solid red'; // Подсвечиваем поле
+        errorSound.play(); 
+        Number.style.border = '2px solid red'; 
         errorMessage.style.display = 'block';
     } 
     else {
-        Number.style.border = ''; // Убираем подсветку, если поле заполнено
+        Number.style.border = ''; 
     }
 });
 
 document.getElementById('button2').addEventListener('click', function() {
-    // Находим форму или первый элемент ввода по id
     const formElement = document.getElementById('forma');
     
-    // Используем scrollIntoView для прокрутки к элементу
     formElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
